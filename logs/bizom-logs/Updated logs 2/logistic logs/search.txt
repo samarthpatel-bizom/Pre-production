@@ -1,16 +1,16 @@
 {
     "context": {
-        "transaction_id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+        "transaction_id": "0e5c47d5-d17a-4441-9420-4135182cf086",
         "country": "IND",
         "city": "std:080",
-        "message_id": "7fe2395a-0d4f-460b-9ee1-2ba11944c603",
+        "message_id": "210de336-7d5c-4cc7-a1a4-00470949e637",
         "core_version": "1.0.0",
         "ttl": "PT30S",
         "bap_id": "stagingapigateway.bizom.in/ondc",
         "domain": "nic2004:60232",
         "action": "search",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-08T12:58:10.800Z"
+        "timestamp": "2022-09-11T04:44:50.850Z"
     },
     "message": {
         "intent": {
@@ -41,12 +41,12 @@
             },
             "@ondc/org/payload_details": {
                 "weight": {
-                    "value": 0.34424999356269836,
+                    "value": 0.34425,
                     "unit": "Kilogram"
                 },
-                "category": "Grocery",
+                "category": "Packaged Foods",
                 "value": {
-                    "value": 204.97000122070312,
+                    "value": "204.97",
                     "currency": "INR"
                 }
             }
@@ -56,17 +56,17 @@
 
 {
     "context": {
-        "transaction_id": "f579e146-2203-45cd-bb3a-0d7b9b6e790d",
+        "transaction_id": "0e5c47d5-d17a-4441-9420-4135182cf086",
         "country": "IND",
         "city": "std:080",
-        "message_id": "7fe2395a-0d4f-460b-9ee1-2ba11944c603",
+        "message_id": "210de336-7d5c-4cc7-a1a4-00470949e637",
         "core_version": "1.0.0",
         "ttl": "PT30S",
         "bap_id": "stagingapigateway.bizom.in/ondc",
         "domain": "nic2004:60232",
         "action": "on_search",
         "bap_uri": "https://stagingapigateway.bizom.in/ondc",
-        "timestamp": "2022-09-08T12:58:12.000Z",
+        "timestamp": "2022-09-11T04:44:52.000Z",
         "bpp_id": "uat.grab.in",
         "bpp_uri": "https://uat.grab.in/beckn/bpp/"
     },
